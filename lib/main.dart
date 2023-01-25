@@ -26,7 +26,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: AnimatedSplashScreen(
-          // duration: 2000,
           animationDuration: Duration(seconds: 3),
           splashIconSize: 150.0,
           splash: "Assets/images/splash.png",
